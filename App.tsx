@@ -7,15 +7,15 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import {BasicScreen} from './src/BasicScreen.tsx';
 import {Colors} from './src/resources/Colors.ts';
+import {AppleSeed} from './src/skia/AppleSeed.tsx';
 
 function App(): React.JSX.Element {
   // const isDarkMode = useColorScheme() === 'dark';
 
   return (
     <SafeAreaView style={styles.appContainer}>
-      <BasicScreen />
+      <AppleSeed />
     </SafeAreaView>
   );
 }

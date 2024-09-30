@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     justifyContent: 'flex-start',
-    backgroundColor: 'rgb(230, 240, 232)',
+    backgroundColor: 'rgb(217, 228, 217)',
   },
   canvasContainer: {
     alignItems: 'center',

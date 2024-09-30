@@ -54,9 +54,9 @@ export const AppleSeed = () => {
 
   // prettier-ignore
   const brillianceMatrix = [
-    1.2, 0, 0, 0, 0.4, // Red
-    0, 1.2, 0, 0, 0.4, // Green
-    0, 0, 1.2, 0, 0.4, // Blue
+    1.2, 0, 0, 0, 0.5, // Red
+    0, 1.2, 0, 0, 0.5, // Green
+    0, 0, 1.2, 0, 0.5, // Blue
     0, 0, 0, 1, 0,    // Alpha
   ];
 
@@ -162,7 +162,7 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     justifyContent: 'flex-start',
-    backgroundColor: Colors.tea_green.DEFAULT,
+    backgroundColor: 'rgb(230, 240, 232)',
   },
   canvasContainer: {
     alignItems: 'center',

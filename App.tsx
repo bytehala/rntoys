@@ -7,7 +7,7 @@
 
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import {Colors} from './src/resources/Colors.ts';
+import {Colors} from './src/values/Colors.ts';
 import {AppleSeed} from './src/skia/AppleSeed.tsx';
 
 function App(): React.JSX.Element {

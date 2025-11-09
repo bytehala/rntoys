@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Colors} from './resources/Colors.ts';
+import {Colors} from './values/Colors.ts';
 
 export const BasicScreen = () => {
   return (
